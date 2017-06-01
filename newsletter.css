@@ -1,0 +1,93 @@
+* {
+	font-family: 'Merriweather', serif;
+	box-sizing: border-box;
+	color: #131511;
+}
+
+body {
+	background: #F2F1E8;
+	margin: 0px;
+}
+
+.logo {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 200;
+	height: 100px;
+}
+
+.navigation {
+	display: inline-flex;
+	justify-content: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	width: 100%;
+	z-index: 100;
+	background: #FFFFFF;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.navitem {
+	font-family: 'Roboto', sans-serif;
+	margin: 20px;
+	color: #2B2F26;
+}
+
+.activenavitem {
+	font-family: 'Roboto', sans-serif;
+	margin: 20px;
+	color: #968772;
+}
+
+.navitem:hover {
+	color: #CD5D67;
+}
+
+.main {
+	height: 900px;
+	background: url( "images/background-2.jpg");
+}
+main {
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+table {
+	position: relative;
+	top: 150px;
+	background-color: white;
+	border-collapse: collapse;
+	width: 800px;
+	height: 500px;
+}
+td{
+	text-align:center;
+	padding: 0px 30px;
+}
+
+.inputrow {
+	border-bottom: 2px solid tan;
+}
+
+input{
+	border: none;
+	width: 100%;
+}
+
+button
+{
+	background-color: tan;
+	border: none;
+	width: 120px;
+	height: 60px;
+	color:white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
